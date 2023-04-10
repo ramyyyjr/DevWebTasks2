@@ -1,0 +1,131 @@
+*{
+    font-family: 'Lato','Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+header{ /* nav bar */
+    background-color: #f0f0f0;
+    padding: 12px;
+    margin:-10px -7.9px 0px -13px;
+    display: flex;
+    justify-content: center;
+    width: 1199px;
+    height: 55px;
+}
+header img{ /* logo */
+    position: relative;
+    right: 180px;
+    padding:8px;
+    bottom:-3px;
+    scale: 0.6;
+}
+header a{ /* les 5 sections */
+    text-decoration: none;
+    margin-right: 20px;
+    font-style:italic ;
+    color: rgba(0, 0, 0, 0.456);
+    bottom:-18.5px;
+    position: relative;
+    right:50px;
+    font-weight: 500;
+    height: 49px;
+}
+header a:hover{ /* animation t3 lkhet */
+    text-decoration: dashed;
+    color: black;
+    transition: 0.5s;
+    /* hna ndiro les para t3 line  */
+}
+/* li rah yjo hna g3 t3 l'button li f nav */
+header .reqbut{ 
+    position: relative;
+    left:200px;
+    bottom:6px;
+}
+header button{ 
+    background:linear-gradient(
+        rgb(98, 173, 173), 
+        rgb(69, 122, 174)
+    );
+    color: rgba(240, 240, 240, 0.971);
+    position: relative;
+    padding:20.4px;
+    height: 35px;
+    width: 150px;
+    border-radius:25px;
+    font-weight: 900;
+    bottom: -13px;
+    right:65px;
+    border:none;    
+}
+header button:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+}
+header .reqbut span{
+    position: relative;
+    bottom:9px;
+}
+/* section n1 */
+.page1{
+    margin:-10px;
+}
+h1{ /* titre kbir */
+    position: relative;
+    left:107px;
+    top: 120px;
+    font-size:10vh;
+}
+p{ /* sous-titre */
+    position: relative;
+    left:109px;
+    top: 110px;
+    opacity: 0.6;
+    line-height: 27px;
+    font-size: 3.3vh;
+}
+/* la photo t3 la page1 */
+.page1 .bg{ 
+    position: relative;
+    top:-1550px;
+    right: -440px;
+    z-index: -2;
+    scale: 0.8;
+}
+.page1 .mookup{
+    position: relative;
+    top:-440px;
+    right: -660px;
+    z-index: -1;
+    scale: 0.85;
+}
+.page1 button{ /* l'button li fwst la page1 + l'animation */
+    position: relative;
+    top:-1833px;
+    left:124px;
+    padding:10.4px;
+    width: 140px;
+    border-radius:20px; 
+    scale: 1.2;
+    color: rgba(240, 240, 240, 0.971);
+    background:linear-gradient(
+        rgb(98, 173, 173), 
+        rgb(69, 122, 174));
+    border:none;
+}
+.page1 button:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+}
+.page2 h2{
+    position: relative;
+    top:-1650px;
+    right:-107px;
+    font-size: 7vh;
+}
+.page2 p{
+    position: relative;
+    top:-1650px;
+    display: grid;
+}
+.page2 .t1{
+
+}

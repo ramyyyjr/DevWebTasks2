@@ -1,0 +1,22 @@
+
+/* page4 */
+footer button{ 
+background:linear-gradient(
+    rgb(98, 173, 173), 
+    rgb(69, 122, 174)
+);
+    color: rgba(240, 240, 240, 0.971);
+    position: relative;
+    padding:20.4px;
+    height: 35px;
+    width: 150px;
+    border-radius:25px;
+    font-weight: 900;
+    bottom: -13px;
+    right:65px;
+    border:none;    
+}
+footer button:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+} /* nzido span llktiba wnrigliwha */
